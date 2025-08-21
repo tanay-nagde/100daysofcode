@@ -1,0 +1,1 @@
+getRecentSubmissions($username: String!, $limit: Int)
