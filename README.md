@@ -44,14 +44,4 @@ https://github.com/user-attachments/assets/223d7d6f-76db-4a2d-819c-f3814d5137da
 
 ---
 
-## 🧩 Architecture
 
-```mermaid
-flowchart TD
-    User[User] --> UI[React + ShadCN UI]
-    UI --> State[Redux Toolkit + RTK Query]
-    State --> API[Express.js Backend]
-    API --> DB[MongoDB]
-    API --> LeetCode[LeetCode GraphQL API]
-    API --> Auth[Google OAuth (Passport.js)]
-    API --> Modules[Problems | Contests | Leaderboards]
